@@ -35,7 +35,7 @@ public class Util {
         }
     }
 
-    private Configuration getMySqlConfiguration() {
+    public static Configuration getMySqlConfiguration() {
         Configuration configuration = new Configuration();
         configuration.addAnnotatedClass(User.class);
 
